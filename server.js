@@ -5,7 +5,7 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.json());
 
 const Nightmare = require('nightmare')
-const nightmare = Nightmare({ show: true, typeInterval: 20 })
+const nightmare = Nightmare({ show: true, typeInterval: 5 })
 
 
 // .click('#saveForm') replace by .goto('https://www.aegisdentalnetwork.com/admin/entries/page/6/')
